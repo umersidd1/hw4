@@ -27,6 +27,8 @@ struct Node {
  * 
  * @param root Pointer to the root of the tree to check for equal paths
  */
+
+//relevant functions
 int depthLength(Node* root); 
 bool equalCheck(Node* root, int length, int goalLength);
 bool equalPaths(Node * root);
